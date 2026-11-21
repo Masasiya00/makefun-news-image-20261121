@@ -5,12 +5,12 @@
 # Saturday 21 November 2026 — The World in One Day
 
 One image that sums up the world's news of Saturday 21 November 2026:
-35 stories across 7 regions — the Houthi missiles on Riyadh, the Peru
+45 stories across 7 regions — the Houthi missiles on Riyadh, the Peru
 quake, COP31 running into overtime in Antalya, Russia's overnight strikes
 on Ukraine, the AI stock sell-off, and more.
 
 The image is drawn programmatically (Python Pillow, hand-written story
-list) so every headline is sharp and legible. The six illustrations of
+list) so every headline is sharp and legible. The sixteen illustrations of
 the lead events are AI-generated artwork, not photographs.
 
 ## How it works
