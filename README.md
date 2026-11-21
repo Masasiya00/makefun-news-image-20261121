@@ -5,116 +5,112 @@
 # Saturday 21 November 2026 — The World in One Day
 
 One image that sums up the world's news of Saturday 21 November 2026:
-45 stories across 7 regions — the Houthi missiles on Riyadh, the Peru
-quake, COP31 running into overtime in Antalya, Russia's overnight strikes
-on Ukraine, the AI stock sell-off, and more.
+35 stories across 7 regions — COP31 running into overtime in Antalya,
+three Houthi missiles shot down over Riyadh, the magnitude 6.7 quake in
+Peru, and 32 more, every one of them first reported on 21 November.
 
 The image is drawn programmatically (Python Pillow, hand-written story
-list) so every headline is sharp and legible. The sixteen illustrations of
-the lead events are AI-generated artwork, not photographs.
+list) so every headline is sharp and legible. All illustrations are
+original drawings made in code — not photographs, not AI pictures.
 
-## The 45 stories
+## The 35 stories
 
 Every story below was first reported on Saturday 21 November 2026 and
-appears as one headline in the image, grouped into seven sections.
+appears as one headline in the image, grouped into seven regions.
 
-### UKRAINE WAR — 7 stories
+### EUROPE — 6 stories
 
-- Russia fires 3 ballistic missiles, 148 drones
-- Kryvyi Rih: 2 killed incl. 7-year-old, 58 hurt
-- Kyiv's Podilskyi hit; Dutch embassy damaged
-- Ukraine downs 117 of 148 drones overnight
-- Russian missiles land in Poland; Tusk: provocation
-- Russian troop losses hit 1,634,860, Kyiv says
-- Kyiv's three Dnipro bridges damaged in assault
+- COP31 runs into Saturday with no deal (Antalya)
+- Zelensky: Crimea bridge 'will not stay' (Kyiv)
+- NATO's Rutte visits Warsaw after missile incursion
+- Double strike kills 2 and injures 58 (Kryvyi Rih)
+- Ukraine downs 117 of 148 drones overnight (Kyiv)
+- EU says COP31 is a good deal or no deal (Antalya)
 
-### ASIA-PACIFIC — 6 stories
+### ASIA — 10 stories
 
-- New Delhi air AQI 327, 'very poor'
-- India airlines extend Riyadh flight suspensions
-- Saudi and Japan agree oil stockpiles
-- 11 dead, 180+ in hospital after toxic alcohol
-- Indonesia hit by massive forest fires in 2026
-- Dubai-Riyadh flights cancelled en masse
+- China tells Japan to 'correct' Taiwan words (Beijing)
+- Jet lands safely after engine-fire alert, 146 safe (Davao)
+- Kim tours factories, ignores Trump offer (Pyongyang)
+- Freight train derails; no one hurt (Sejong)
+- Budget and cash payout are passed (Taipei)
+- Six-point plan on arsenic in two rivers (Bangkok)
+- Pakistani minister joins SCO forum in India (New Delhi)
+- Rain alerts as Akvan's remnants move inland (Eastern India)
+- Rights groups urge sanctions after court ruling (Myanmar)
+- Indonesia's PLN inks clean-power deals (Antalya)
 
-### MIDDLE EAST — 6 stories
+### MIDDLE EAST — 4 stories
 
-- Houthis fire 3 ballistic missiles at Riyadh
-- Saudi coalition strikes Hodeidah; airlines warned
-- Tanker hit by projectile leaving Strait of Hormuz
-- IRGC claims it downed a US MQ-9 drone
-- Hartha power plant fire in Iraq kills 4
-- Houthi missile damages Riyadh's tallest PIF tower
+- Three Houthi missiles shot down over Riyadh
+- Iran says it downed a US drone (Strait of Hormuz)
+- Israeli strikes kill six in Gaza
+- Houthis threaten Jeddah and Red Sea ports (Yemen)
 
-### EUROPE — 7 stories
+### AFRICA — 1 story
 
-- UK and EU sign biggest deal since Brexit
-- Rutte in Warsaw amid Poland missile fall
-- Paris 'Act VI' march from Republique
-- Latvia urges EU to shut border to all Russians
-- Gen Z protests spread across 25 European states
-- Poland seeks NATO AWACS, F-35s after missiles land
-- Farage vows to fight UK-EU reset deal
+- African rating agency talks to 15 states (Port Louis)
 
-### AMERICAS — 7 stories
+### AMERICAS — 10 stories
 
-- Peru quake M6.9 shakes Andes, felt in Lima
-- LA quake M4.2 rattles California
-- Florida river flooding breaks records
-- LA man guilty of starting Palisades fire
-- NYC mayor plans to close Rikers Island by 2032
-- GTA VI breaks entertainment records in opening sales
-- Peru quake damages 14 homes, cuts power
+- Magnitude 6.7 earthquake shakes central Peru (Junín)
+- Trump vows tax on data centres abroad (Washington)
+- Russell fastest in final Vegas practice (Las Vegas)
+- Vance: Iran strikes were Trump's decision (Washington)
+- Lawmaker threatens SpaceX's funding (Washington)
+- Execution of a man of 70 takes 63 minutes (Texas)
+- Judge approves $7.25bn Roundup deal (Missouri)
+- Canada rests defence in youth climate trial (Vancouver)
+- Verstappen sent to stewards after contact (Las Vegas)
+- Panama threatens to block the climate text (Antalya)
 
-### TECH & MARKETS — 6 stories
+### OCEANIA — 3 stories
 
-- AI sell-off: S&P 500 -3.7%, Nasdaq -5.3%
-- FBI and US Agriculture Dept hacked amid outages
-- Anthropic shares slide after record IPO debut
-- Anthropic mathematician claims Riemann proof
-- White House cyber chief fired after tech outages
-- YouTube to pay $3bn to settle US school suits
+- Australia and China agree to AI talks (Canberra)
+- Rahul hits a century against New Zealand (Wellington)
+- Cummins keeps the Australian captaincy (Melbourne)
 
-### CLIMATE & WORLD — 6 stories
+### GLOBAL — 1 story
 
-- COP31 in Antalya deadlocked, runs into overtime
-- COP31 launches electrification package, UK £400m
-- BepiColombo reaches Mercury
-- WHO warns of child deaths in Congo Ebola outbreak
-- Bayer pays $7.25bn to settle Roundup complaints
-- COP31 draft drops fossil fuel wording
+- Bitcoin trades below $59,000 on Saturday ($58,983, down 3.9%)
 
-## The design (v4)
+## The design (v5)
 
-This is the fourth version of the image. The layout is a newspaper
-front page: a big masthead, three large hero pictures, then a grid of
-seven story sections and an ABOUT box.
+This is the fifth version of the image, rebuilt from scratch — a new
+layout, new data and new copy, not a tweak of v4.
 
-- The three hero pictures are 132 px tall, 38% larger than in v3, so
-  the lead events dominate the page.
-- Each hero caption is color-coded: RIYADH UNDER FIRE on a red bar,
-  PERU QUAKE on a green bar, COP31 OVERTIME on a teal bar.
-- A 3 px red rule runs under the masthead.
-- Section titles are 16 pt and thumbnails are 64x34 px.
-- Story cards have 2 px borders, and the ABOUT box has a red strip
-  on top.
+- A navy masthead band with a cream serif title, "THE WORLD IN ONE
+  DAY", and a gold date line underneath — v4 had a plain serif date
+  masthead.
+- A six-number stats strip (Day 13 of COP31, 3 missiles, 6.7 quake,
+  146 safe, $58,983 bitcoin, 124* Rahul) and a region bar with counts.
+- Three hero cards with their own colours — COP31 teal, Riyadh red,
+  Peru green — instead of v4's uniform red bars and AI pictures.
+- Ten medium cards in a 5x2 grid, each with a code-drawn flat icon and
+  a status tag (CONFIRMED, OFFICIAL, REPORTED or CLAIM) showing how
+  solid the sourcing is.
+- A world map with numbered pins for stories 1–13, a "22 MORE STORIES"
+  list, and a DATE CHECK box naming what was deliberately left out.
+- 35 stories instead of v4's 45: fewer, but every one verified against
+  live reporting for 21 November, and the page breathes.
 
-## The sixteen illustrations
+## Facts fixed vs v4
 
-Three hero illustrations, one per lead event:
+- The Peru quake is magnitude 6.7, not 6.9 (USGS, IGP). No deaths;
+  dozens of homes damaged.
+- The Poland missile landing, the UK–EU deal, the Kyiv bridge barrage,
+  the PIF tower strike and the Anthropic debut were 19–20 November
+  news. They are out of the image and named in the DATE CHECK box
+  instead of being presented as 21 November news.
 
-- Riyadh under fire — missiles over the city skyline
-- Peru quake — mountain villages in the Andes
-- COP31 overtime — the conference hall in Antalya
+## The illustrations
 
-Thirteen section thumbnails, one per section header:
-
-- Kyiv, Kyiv bridges, Delhi, Hormuz, PIF tower, UK-EU deal,
-  Westminster, flooding, Peru damage, AI sell-off, Riemann proof,
-  Mercury, Ebola outbreak
-
-All sixteen are watercolor-style AI-generated artwork with no text
-in them, so they never clash with the headlines.
+Every picture on the page is an original drawing made in code: the
+COP31 globe, thermometer and clock; the Riyadh night skyline with
+interception bursts; the Peru mountains with a seismograph line; and
+ten flat icons (bridge, drone, city, tax, flags, plane, chat, chart,
+chequered flag, cricket bat). No photographs, no AI-generated images,
+no text inside the pictures.
 
 ## A note on one fact
 
@@ -140,15 +136,15 @@ This writes `out/entry.png`, byte-identical to `entry.png`.
 
 ## Verification
 
-- `entry.png` is a 1024x1024 PNG, 547,235 bytes, under the 1 MiB cap.
+- `entry.png` is a 1024x1024 PNG, 175,184 bytes, under the 1 MiB cap.
 - Running `main.ts` twice writes the same bytes both times; the
   output is byte-identical to `entry.png`.
-- All 45 headlines are legible at full size with no overlap and no
+- All 35 headlines are legible at full size with no overlap and no
   text cut off, and the date is prominent at the top.
 
 ## Files
 
-- `entry.png` — the infographic, 1024x1024 PNG, 547,235 bytes
+- `entry.png` — the infographic, 1024x1024 PNG, 175,184 bytes
 - `main.ts` — the program that copies it to `/output/entry.png`
 - `LICENSE` — MIT
 
